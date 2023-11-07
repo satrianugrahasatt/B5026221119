@@ -1,0 +1,131 @@
+.satriaNRP5026221119 {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.satriaNRP5026221119header-container {
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.satriaNRP5026221119buttongeneral {
+    background-color: ebebeb;
+    color: #fff;
+    border: 1px solid rgb(209, 208, 208);
+    border-radius: 30px;
+    font-size: 16px;
+    align-items: center;
+}
+
+.satriaNRP5026221119more {
+    height: 40px;
+    width: 40px;
+    color: black;
+    font-weight: lighter;
+}
+
+.satriaNRP5026221119subscribe-button {
+    height: 40px;
+    width: 130px;
+    color: black;
+    font-size: smaller;
+}
+
+/* reset default button */
+button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 0;
+    background: none;
+}
+
+.fa-bell {
+    margin-right: 10px;
+    color: black;
+    font-size: larger;
+}
+
+.satriaNRP5026221119profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+.satriaNRP5026221119profile> img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+
+.satriaNRP5026221119title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px; 
+    margin-bottom: 2px;
+}
+.satriaNRP5026221119subtitle{
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+.satriaNRP5026221119linktree{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 50px;
+    margin : 10px;
+    padding : 10px;
+    text-align: center;
+}
+body{
+    font-family: 'Inter', sans-serif;
+}
+.satriaNRP5026221119linktree>a {
+    text-decoration: none;
+    color:white;
+    font-size: 14px;
+    background-color: #2a3235;
+    text-align: center;
+    border-radius : 10px;
+    margin: 7px 10px;
+    padding: 16px;
+    position: relative;
+}
+
+.satriaNRP5026221119linktree>a:hover::after {
+    content: '...'; /* Isi dari tiga titik kecil */
+    position: absolute;
+    top: 50%;
+    right: 20px; /* Jarak dari kanan */
+    transform: translateY(-80%);
+    font-size: 18px;
+    color: white;
+}
+a:hover{
+   transform: scale(1.03);
+}
+a{
+    transition: all 0.2s;
+}
+
+
+.satriaNRP5026221119footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+.satriaNRP5026221119footer> img {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}

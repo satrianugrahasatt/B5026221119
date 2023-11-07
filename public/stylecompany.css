@@ -1,0 +1,16 @@
+.icon {
+    width: 24px; 
+    height: 24px; 
+    margin-right: 10px; 
+    vertical-align: middle; 
+}
+
+.link, .handle1, .handle2 {
+    font-family: 'Nunito', sans-serif;
+    font-size: x-large;
+    display: inline-block; 
+    vertical-align: middle; 
+    color: rgb(60, 60, 60);
+}
+
+
