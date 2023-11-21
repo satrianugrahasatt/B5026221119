@@ -82,7 +82,7 @@
                                     love what you are doing." - Brian Tracy</p>
                             </div>
                             <div class="col-xs-12 col-md-6">
-                                <img src="./assets/images/profil.jpg" class="img-responsive" alt="">
+                                <img src="/assets/images/profil.jpg" class="img-responsive" alt="">
                             </div>
                         </div>
                     </div>
