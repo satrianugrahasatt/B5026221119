@@ -13,7 +13,7 @@
 
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
   <!-- Brand -->
-  <a class="navbar-brand" href="#">Logo</a>
+  <a class="navbar-brand" href="#">5026221119 Satria Dwi Nugraha</a>
 
   <!-- Links -->
   <ul class="navbar-nav">
@@ -30,8 +30,8 @@
         Dropdown link
       </a>
       <div class="dropdown-menu">
-        <a class="dropdown-item" href="#">Link 1</a>
-        <a class="dropdown-item" href="#">Link 2</a>
+        <a class="dropdown-item" href="/pegawai">Pegawai</a>
+        <a class="dropdown-item" href="/pegawai/tambah">Tambah</a>
         <a class="dropdown-item" href="#">Link 3</a>
       </div>
     </li>
