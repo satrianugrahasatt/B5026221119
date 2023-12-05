@@ -9,7 +9,7 @@
 	<a href="/pegawai/tambah" class="btn btn-primary"> + Tambah Pegawai Baru</a>
 
 	<br/>
-    <p>Cari Data Pegawai Berdasarkan Nama :</p>
+    <p>Cari Nilai Kuliah Berdasarkan ID :</p>
 	<form action="/pegawai/cari" method="GET">
 		<input class="form-control" type="text" name="cari" placeholder="Cari Pegawai .."
         value="{{ old("cari", isset($cari) ? $cari : '') }}">
