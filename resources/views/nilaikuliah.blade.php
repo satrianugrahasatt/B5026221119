@@ -1,6 +1,6 @@
 @extends('master')
 
-@section('title','Data Pegawai')
+@section('title','Data Nilai')
 
 @section('konten')
 
@@ -9,7 +9,7 @@
 	<a href="/nilaikuliah/nilaitambah" class="btn btn-primary"> + Tambah Nilai Baru</a>
 
 	<br/>
-    
+
 	<br/>
 
 
@@ -53,17 +53,3 @@
 	</table>
 @endsection
 
-@php
-function getNilaiHuruf($NilaiHuruf)
-{
-    if ($nilaiAngka <= 40) {
-        return 'D';
-    } elseif ($nilaiAngka <= 60) {
-        return 'C';
-    } elseif ($nilaiAngka <= 80) {
-        return 'B';
-    } else {
-        return 'A';
-    }
-}
-@endphp

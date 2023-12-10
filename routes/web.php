@@ -110,3 +110,11 @@ Route::get('/nilaikuliah/nilaitambah','App\Http\Controllers\NilaiController@nila
 Route::get('/keranjangbelanja','App\Http\Controllers\KeranjangController@indexd4');
 Route::get('/keranjangbelanja/beli','App\Http\Controllers\KeranjangController@beli');
 Route::post('/keranjangbelanja/store','App\Http\Controllers\KeranjangController@store');
+
+Route::get('/ikan','App\Http\Controllers\IkanController@index');
+Route::get('/ikan/tambahikan','App\Http\Controllers\IkanController@tambah');
+Route::post('/ikan/store','App\Http\Controllers\IkanController@store');
+Route::get('/ikan/edit/{id}','App\Http\Controllers\IkanController@edit');
+Route::get('/ikan/view/{id}', 'App\Http\Controllers\IkanController@view');
+Route::get('/ikan/hapus/{id}','App\Http\Controllers\IkanController@hapus');
+Route::post('/ikan/update','App\Http\Controllers\IkanController@update');

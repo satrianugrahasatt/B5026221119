@@ -18,21 +18,18 @@
   <!-- Links -->
   <ul class="navbar-nav">
     <li class="nav-item">
-      <a class="nav-link" href="#">Link 1</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#">Link 2</a>
+      <a class="nav-link" href="/">Homepage</a>
     </li>
 
     <!-- Dropdown -->
     <li class="nav-item dropdown">
       <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-        Dropdown link
+        Databases
       </a>
       <div class="dropdown-menu">
         <a class="dropdown-item" href="/pegawai">Pegawai</a>
-        <a class="dropdown-item" href="/pegawai/tambah">Tambah</a>
-        <a class="dropdown-item" href="#">Link 3</a>
+        <a class="dropdown-item" href="/ikan">Ikan</a>
+        <a class="dropdown-item" href="/nilaikuliah">Nilai Kuliah</a>
       </div>
     </li>
   </ul>
