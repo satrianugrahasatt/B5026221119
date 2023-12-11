@@ -16,7 +16,7 @@ class PegawaiController extends Controller
         $pegawai = DB::table('pegawai')
                         ->orderBy('pegawai_nama','asc')
                         ->paginate(10);
-
+                        
     	// mengirim data pegawai ke view index
 		return view('index',['pegawai' => $pegawai]);
 

@@ -118,3 +118,5 @@ Route::get('/ikan/edit/{id}','App\Http\Controllers\IkanController@edit');
 Route::get('/ikan/view/{id}', 'App\Http\Controllers\IkanController@view');
 Route::get('/ikan/hapus/{id}','App\Http\Controllers\IkanController@hapus');
 Route::post('/ikan/update','App\Http\Controllers\IkanController@update');
+
+Route::get('/chat','App\Http\Controllers\ChatController@index');

@@ -37,6 +37,27 @@
                 <option value="N">Tidak Tersedia</option>
                 @endif
             </select>
+            <script>
+                document.addEventListener('DOMContentLoaded', function () {
+                    var jumlahIkanInput = document.getElementById('jumlahikan');
+                    var tersediaSelect = document.getElementById('tersedia');
+
+                    // Set opsi default menjadi "Tidak Tersedia"
+                    tersediaSelect.value = 'N';
+
+                    jumlahIkanInput.addEventListener('input', function () {
+                        // Ambil nilai input jumlah ikan
+                        var jumlahIkanValue = parseInt(jumlahIkanInput.value);
+
+                        // Ubah opsi pada elemen select sesuai dengan nilai input
+                        if (jumlahIkanValue > 0) {
+                            tersediaSelect.value = 'Y';
+                        } else {
+                            tersediaSelect.value = 'N';
+                        }
+                    });
+                });
+            </script>
         </div>
     </div>
 

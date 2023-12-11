@@ -20,6 +20,9 @@
     <li class="nav-item">
       <a class="nav-link" href="/">Homepage</a>
     </li>
+    <li class="nav-item">
+        <a class="nav-link" href="/chat">Chat</a>
+      </li>
 
     <!-- Dropdown -->
     <li class="nav-item dropdown">
@@ -30,6 +33,7 @@
         <a class="dropdown-item" href="/pegawai">Pegawai</a>
         <a class="dropdown-item" href="/ikan">Ikan</a>
         <a class="dropdown-item" href="/nilaikuliah">Nilai Kuliah</a>
+        <a class="dropdown-item" href="/chat">Chat</a>
       </div>
     </li>
   </ul>
